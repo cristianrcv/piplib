@@ -27,9 +27,9 @@
 #ifndef TYPE_H
 #define TYPE_H
 #if defined(__cplusplus)
-extern "C" 
-  {
-#endif 
+extern "C"
+{
+#endif
 
 /* Modified by Serge Torres to handle very big problems (since 1.3.4 we can put
  * any value we want: sol_space_xx is allocated dynamically), but it is left by
@@ -50,6 +50,6 @@ extern "C"
 #define MAXPARM 50
 
 #if defined(__cplusplus)
-  }
-#endif 
+}
+#endif
 #endif /* define _H */

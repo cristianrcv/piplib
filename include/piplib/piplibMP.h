@@ -26,7 +26,7 @@
 
 /* Ce fichier d'inclusions regroupe tout les elements accessibles aux
  * utilisateurs de la PipLib. Premiere version du 29 juillet 2001.
- */ 
+ */
 
 
 #include <piplib/piplib_gmp.h>

@@ -27,9 +27,9 @@
 #ifndef SOL_H
 #define SOL_H
 #if defined(__cplusplus)
-extern "C" 
-  {
-#endif 
+extern "C"
+{
+#endif
 
 
 /**< Shift solution over -bigparam */
@@ -62,6 +62,6 @@ int is_not_Nil_xx(int);
 void sol_simplify_xx(int);
 
 #if defined(__cplusplus)
-  }
-#endif 
+}
+#endif
 #endif /* define _H */

@@ -27,22 +27,22 @@
 #ifndef FUNCALL_H
 #define FUNCALL_H
 #if defined(__cplusplus)
-extern "C" 
-  {
-#endif 
+extern "C"
+{
+#endif
 
 #define TRAITER_INT  (1 << 0) /* Compute integer optimum */
 #define TRAITER_DUAL (1 << 1) /* Compute dual variables */
 
 #define traiter_xx PIPLIB_NAME(traiter)
 void traiter_xx(
-  Tableau_xx *tp, Tableau_xx *ctxt,
-  int nvar, int nparm, int ni, int nc, int bigparm, int flags);
+    Tableau_xx *tp, Tableau_xx *ctxt,
+    int nvar, int nparm, int ni, int nc, int bigparm, int flags);
 
 #define integrer_xx PIPLIB_NAME(integrer)
 int integrer_xx(
-  Tableau_xx **, Tableau_xx **,
-  int *, int *, int *, int *, int);
+    Tableau_xx **, Tableau_xx **,
+    int *, int *, int *, int *, int);
 
 #define dgetc_xx PIPLIB_NAME(dgetc)
 #define pip_create_dump_file_xx PIPLIB_NAME(pip_create_dump_file)
@@ -98,11 +98,11 @@ Tableau_xx * tab_alloc_xx(int, int, int);
 void sol_list_xx(int);
 void tab_display_xx(Tableau_xx *, FILE *);
 Tableau_xx * expanser_xx(Tableau_xx *,
-                                             int, int, int, int, int, int);
+                         int, int, int, int, int, int);
 void sol_new_xx(int);
 void sol_div_xx(void);
 
 #if defined(__cplusplus)
-  }
-#endif 
+}
+#endif
 #endif /* define _H */
